@@ -27,10 +27,22 @@ body{
 
 }
 
+.background-white1{
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 1%;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+
+}
+
+
 .background-white{
     background-color: white;
-    
+    padding: 30px;
 }
+
+
 /* 
         HEADER
 */    
@@ -52,22 +64,119 @@ h1{
          MAIN
 */
 
-.test-div{
-    padding: 30px;
+.add-task{
+    border: 0;
+    padding: 10px;
+    color:white;
+    background-color: rgb(43,187,223);
+    border-radius: 10px;
+    width: 7%;
+    height: 7%;
+    line-height: 10px;
 }
+
+.add-section{
+    padding: 10px;
+    color:grey;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-color: grey;
+    width: 10%;
+    height: 10%;
+    line-height: 10px;
+}
+
+
+.test-div{
+    padding: 1px 30px;
+}
+
+.bottone{
+    margin: 10px;
+    border: 0;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(43, 187, 223);
+}
+
+.q1{
+    margin: 10px;
+    border: 0;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(184, 10, 219);
+}
+
+.recruiting{
+    margin: 10px;
+    border: 0;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(120, 238, 160);
+}    
+
+.mobile{
+    margin: 10px;
+    border: 0;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(221, 126, 18);
+}    
+
+.website{
+    margin: 10px;
+    border: 0;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(207, 15, 121);
+}    
+
+.sales{
+    margin: 10px;
+    border: 0;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(162, 204, 63);
+}    
 
 .check{
     border-radius: 50%;
-    width: 30px;
-    height:30px;
+    width: 20px;
+    height:20px;
     border: 1px solid black;
     color:black;
     display: inline-block;
     text-align: center;
-    line-height: 30px;
+    line-height: 20px;
 
 }
-
+.upcoming{
+    padding:1%;
+}
 .done{
     border-color: green;
     color: green;
@@ -76,4 +185,9 @@ h1{
 .not-done{
     border-color: red;
     color: red;
+}
+
+.upcoming{
+    padding: 10px;
+    display: inline-block;
 }
